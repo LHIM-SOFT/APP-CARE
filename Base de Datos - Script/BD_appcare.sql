@@ -17,6 +17,7 @@ CREATE TABLE IF NOT EXISTS `appcare`.`RecienNacido` (
   `HoraDeNacimiento` TIME NULL,
   `Estado` VARCHAR(45) NULL,
   `talla` VARCHAR(45) NULL,
+  `sexo` VARCHAR(45) NULL,
   PRIMARY KEY (`idRecienNacido`))
 ENGINE = InnoDB;
 
