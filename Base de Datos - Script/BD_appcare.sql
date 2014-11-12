@@ -10,8 +10,7 @@ USE `appcare` ;
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `appcare`.`RecienNacido` (
   `idRecienNacido` INT NOT NULL AUTO_INCREMENT,
-  `ApellidoPaterno` VARCHAR(45) NOT NULL,
-  `ApellidoMaterno` VARCHAR(45) NOT NULL,
+  `Apellidos` VARCHAR(60) NOT NULL,
   `Peso` VARCHAR(45) NULL,
   `FechaDeNacimiento` DATE NULL,
   `HoraDeNacimiento` TIME NULL,
